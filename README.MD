@@ -1,4 +1,4 @@
-This is a simple AI Agent with RAG(Retrieval Augmented Generation) capabilities. It can be used to create a chatbot that can answer questions based on a given knowledge base.
+This is an AI Agent with RAG(Retrieval Augmented Generation) capabilities. It can be used to create a chatbot that can answer questions based on a given knowledge base.
 
 Here the csv file is used as a knowledge base for a restaurant reviews.
 It could be also a website or reviews from google.
@@ -24,3 +24,9 @@ The flow of the RAG architecture is as follows:
 2. The retriever retrieves relevant documents from the knowledge base based on the query.
 3. The generator takes the retrieved documents and the user's query as input and generates a response.
 4. The response is returned to the user.
+
+Technologies used in this project:
+1. **Python**: The programming language used to implement the RAG architecture.
+2. **Langchain**: A framework for building AI Agents and applications with Language Models.
+3. **Ollama**: An open source tool to run language models used for generating responses.
+4. **ChromaDb**: A vector database used to store the document embeddings for efficient retrieval.
